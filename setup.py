@@ -2,7 +2,7 @@
 
 """Setup script"""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="hangman",
@@ -11,9 +11,7 @@ setup(
     author_email="vladlenkos@yandex.ru",
     url="https://github.com/Gramotei-vlad/Hangman",
     license="MIT",
-    packages=[
-        "hangman",
-    ],
+    packages=find_packages(),
     install_requires=[
     ],
     setup_requires=[
