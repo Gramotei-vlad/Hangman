@@ -7,5 +7,5 @@ install:
 script:
   - python3 tests.py
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)
   - pylint hangman.py
