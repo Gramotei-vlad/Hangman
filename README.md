@@ -47,5 +47,5 @@ def _check_word(self, word, pred_char):
     return result
 ```
 
-# Copyright
+## Copyright
 Copyright © 2020 Vladislav Kosukhin. See [license](https://github.com/Gramotei-vlad/Hangman/blob/master/LICENSE) for details.
